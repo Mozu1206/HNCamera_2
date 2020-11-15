@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:scrollbarAlwaysDrawVerticalTrack="true"
+              android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <ScrollView android:id="@+id/ScrollView01"
+                android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+
+
+        <!-- 画面全体の内容をここに記述 -->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:background="@null"
+            android:id="@+id/stampcalture"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:background="@null"
+            android:id="@+id/stampphysics"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:background="@null"
+            android:id="@+id/stampEmotional"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
